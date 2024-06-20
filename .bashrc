@@ -11,5 +11,9 @@ man()
     command man "$@"
 }
 
+# prompt
 PS1='\[\e[0;33m\]\A|\[\e[0;32m\]\h:\[\e[0;36m\]\w \[\033[0;31m\]\u\[\e[0m\] \$ '
+
+# quake3 talk sound
+pactl set-sink-volume @DEFAULT_SINK@ 50%
 aplay /usr/share/quake3-terminal/talk.wav 2>/dev/null
