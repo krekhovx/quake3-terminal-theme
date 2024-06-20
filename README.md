@@ -19,13 +19,13 @@ $ cp .vimrc ~/
 $ cp .tmux.conf ~/
 $ cp .dircolors ~/
 $ sudo apt-get install xfonts-terminus
-$ cp terminalrc ~/.config/xfce4/terminal/
+$ cp .config/xfce4/terminal/terminalrc ~/.config/xfce4/terminal/
 $ sudo mkdir /usr/share/quake3-terminal
-$ sudo cp 280x280.tga /usr/share/quake3-terminal
-$ echo "PS1='\[\e[0;33m\]\A|\[\e[0;32m\]\h:\[\e[0;36m\]\w \[\033[0;31m\]\u\[\e[0m\] \$ '" >> ~/.bashrc
+$ sudo cp background/280x280.tga /usr/share/quake3-terminal
 $ sudo apt-get install alsa-utils
-$ sudo cp talk.wav /usr/share/quake3-terminal
-$ echo "aplay /usr/share/quake3-terminal/talk.wav 2>/dev/null" >> ~/.bashrc
+$ sudo cp sound/talk.wav /usr/share/quake3-terminal
+$ echo >> ~/.bashrc
+$ cat .bashrc >> ~/.bashrc
 ```
 Restart terminal.
 
