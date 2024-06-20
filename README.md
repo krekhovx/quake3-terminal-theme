@@ -18,6 +18,7 @@ What are we talking about:
 $ umask 022
 $ cp .vimrc ~/
 $ cp .tmux.conf ~/
+$ cp .dircolors ~/
 $ sudo apt-get install xfonts-terminus
 $ cp terminalrc ~/.config/xfce4/terminal/
 $ sudo mkdir /usr/share/quake3-background
