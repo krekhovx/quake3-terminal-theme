@@ -26,6 +26,7 @@ $ sudo apt-get install alsa-utils
 $ sudo cp sound/talk.wav /usr/share/quake3-terminal
 $ echo >> ~/.bashrc
 $ cat .bashrc >> ~/.bashrc
+$ echo 0 > /sys/module/snd_hda_intel/parameters/power_save
 ```
 Restart terminal.
 
