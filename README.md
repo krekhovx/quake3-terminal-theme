@@ -1,7 +1,3 @@
-<div align="center">
-<img src="https://github.com/iikrllx/quake3-terminal-theme/blob/master/images/intro.jpg">
-</div>
-
 ## quake3-terminal-theme
 A stupid attempt to implement a ```Quake III Arena``` console ```theme``` in my terminal. I still
 love this game and feel nostalgic. Unfortunately, I couldn't find the font used in the Quake
