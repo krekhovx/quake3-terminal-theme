@@ -27,6 +27,5 @@ $ echo 0 > /sys/module/snd_hda_intel/parameters/power_save
 Restart terminal.
 
 ## Useful resources
-https://www.quake3world.com/forum/viewtopic.php?f=7&t=51371
-
-https://github.com/nrempel/q3-server/tree/master/baseq3
+* https://www.quake3world.com/forum/viewtopic.php?f=7&t=51371
+* https://github.com/nrempel/q3-server/tree/master/baseq3
