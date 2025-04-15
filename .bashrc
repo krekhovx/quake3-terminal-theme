@@ -1,20 +1,7 @@
-# color man pages
-man()
-{
-    LESS_TERMCAP_mb=$'\e[0;91m'
-    LESS_TERMCAP_md=$'\e[0;91m' \
-    LESS_TERMCAP_me=$'\e[0m' \
-    LESS_TERMCAP_se=$'\e[0m' \
-    LESS_TERMCAP_so=$'\e[07m' \
-    LESS_TERMCAP_ue=$'\e[0m' \
-    LESS_TERMCAP_us=$'\e[0;4;32m' \
-    command man "$@"
-}
+# Prompt
+PS1='\[\e[0;93m\]\A|\[\e[0;92m\]\h:\[\e[0;96m\]\w \[\033[0;91m\]\u\[\e[0m\] \$ '
 
-# prompt
-PS1='\[\e[0;33m\]\A|\[\e[0;32m\]\h:\[\e[0;36m\]\w \[\033[0;31m\]\u\[\e[0m\] \$ '
-
-# quake3 talk sound
+# Quake 3 Arena Talk Sound
 current_volume=$(pactl get-sink-volume @DEFAULT_SINK@ | grep -Po '[0-9]+(?=%)' | head -1)
 pactl set-sink-volume @DEFAULT_SINK@ 50%
 aplay /usr/share/quake3-terminal/talk.wav 2>/dev/null

@@ -11,17 +11,17 @@ What are we talking about:
 
 ## Installation
 ```
-$ cp .vimrc ~/
-$ cp .tmux.conf ~/
-$ cp .dircolors ~/
-$ sudo apt-get install xfonts-terminus
-$ cp .config/xfce4/terminal/terminalrc ~/.config/xfce4/terminal/
+$ cp ./.vimrc ~/
+$ cp ./.tmux.conf ~/
+$ cp ./.dircolors ~/
+$ sudo apt-get install fonts-terminus
+$ cp ./.config/xfce4/terminal/terminalrc ~/.config/xfce4/terminal/
 $ sudo mkdir /usr/share/quake3-terminal
 $ sudo cp background/280x280.tga /usr/share/quake3-terminal
 $ sudo apt-get install alsa-utils
 $ sudo cp sound/talk.wav /usr/share/quake3-terminal
 $ echo >> ~/.bashrc
-$ cat .bashrc >> ~/.bashrc
+$ cat ./.bashrc >> ~/.bashrc
 $ echo 0 > /sys/module/snd_hda_intel/parameters/power_save
 ```
 Restart terminal.

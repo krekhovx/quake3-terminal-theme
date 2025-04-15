@@ -31,6 +31,7 @@ highlight StatusLine ctermfg=Gray ctermbg=Black
 " show hidden files (nerdtree plugin)
 let NERDTreeShowHidden=1
 
+map q :q<CR>
 map <C-n> :NERDTreeToggle<CR>
 map <F3> :set hlsearch!<CR>
 map <C-f> :Files<CR>
